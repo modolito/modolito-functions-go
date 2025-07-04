@@ -1,0 +1,22 @@
+{
+  "runtime": "go",
+  "entrypoint": "main.go",
+  "functions": [
+    {
+      "name": "hello",
+      "description": "A simple function that returns a greeting message.",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "returns": [
+        {
+          "name": "message",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
